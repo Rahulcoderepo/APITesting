@@ -1,0 +1,31 @@
+Endpoint  :Baseurl/resources?Parameters
+Exp-      :qaclickacademy.com/course-details?id=websecurity
+
+Note- resources and parameters are devided by ?
+
+Type of rest requests-
+GET, POST, PUT, DELETE
+
+GET- 
+Parameter needs to be sent as part of request url
+To retrieve details, You can not add anything
+
+POST-
+Adding or creating something new
+Parameter should in (xml/json)
+Request Body/Payload
+
+PUT- 
+To replace/update something in server 
+Parameter should in (xml/json)
+Request Body/Payload
+
+DELETE-
+To delete the data from server
+Request Body/Payload
+
+Header/cookies - session cookies, sometimes you need to pass the session id in header before hit the any request.
+like when we login to JIRA its generate a session id, so now you want to log a bug so you will post a request,
+but jira cant recognized you as jira is using stateless request so here you need to provide the session id= in
+header before post the request for bug.
+
